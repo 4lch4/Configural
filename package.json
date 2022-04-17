@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-basic-shared",
+  "name": "configural-all",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -11,6 +11,20 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://4lch4.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4lch4/Uniconfig/issues"
+  },
+  "homepage": "https://github.com/4lch4/Uniconfig#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/4lch4/Uniconfig.git"
   },
   "devDependencies": {
     "prettier": "^2.5.1",
