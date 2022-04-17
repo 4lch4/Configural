@@ -1,0 +1,35 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "This package is for testing out existing solutions that are similar to what I want Uniconfig to become.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build:watch": "nodemon --watch 'src/**/*.ts' --exec 'tsc'",
+    "start:windows": "nodemon --watch 'src/**/*.ts' --exec \"npx ts-node\" src/index.ts",
+    "create": "npm run build && npm run test",
+    "build": "tsc -p .",
+    "local": "sudo npm i -g && artemis",
+    "refresh": "rm -rf node_modules *lock* dist && pnpm install",
+    "pretty": "prettier --write ."
+  },
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://4lch4.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@4lch4/logger": "^1.7.4",
+    "configstore": "^6.0.0",
+    "cosmiconfig": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/configstore": "^5.0.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.7.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.3"
+  }
+}

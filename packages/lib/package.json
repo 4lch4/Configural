@@ -1,0 +1,23 @@
+{
+  "name": "configural",
+  "version": "0.0.0",
+  "description": "Easily manage config files of nearly any format without much thought.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/4lch4/Uniconfig.git"
+  },
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://4lch4.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4lch4/Uniconfig/issues"
+  },
+  "homepage": "https://github.com/4lch4/Uniconfig#readme"
+}
